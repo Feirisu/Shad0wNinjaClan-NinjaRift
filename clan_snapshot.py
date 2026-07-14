@@ -11,7 +11,7 @@ import re
 
 CLAN_ID = 105  # ← CHANGE THIS TO YOUR CLAN ID!
 
-API_URL = f"https://playninjarift.com/api/detail_clan_website.php?clan_105={CLAN_ID}"
+API_URL = f"https://playninjarift.com/api/detail_clan_website.php?clan_id={CLAN_ID}"
 TARGET_TZ = timezone(timedelta(hours=8))
 EXCEL_FILE = f"clan_{CLAN_ID}.xlsx"
 HOURLY_CACHE = "_hourly_cache.json"
