@@ -9,7 +9,7 @@ import sys
 import base64
 import re
 
-CLAN_ID = 9999  # ← CHANGE THIS TO YOUR CLAN ID!
+CLAN_ID = 105  # ← CHANGE THIS TO YOUR CLAN ID!
 
 API_URL = f"https://playninjarift.com/api/detail_clan_website.php?clan_105={CLAN_ID}"
 TARGET_TZ = timezone(timedelta(hours=8))
